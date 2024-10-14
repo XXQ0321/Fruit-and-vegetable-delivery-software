@@ -23,4 +23,4 @@ class ProductManager:
         for product in self.products:
             if product.name.lower() == name.lower():
                 return product
-        return None
+        return 0
