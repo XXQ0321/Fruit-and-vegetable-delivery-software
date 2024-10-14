@@ -7,7 +7,7 @@ from user import User
 def main():
     product_manager = ProductManager()
     
-    # 添加一些初始产品
+    # Add some initial products
     product_manager.add_product(Product("Apple", 1.00, 50))
     product_manager.add_product(Product("Banana", 0.50, 100))
     product_manager.add_product(Product("Orange", 0.80, 75))
